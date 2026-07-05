@@ -100,7 +100,7 @@ main{
 .info1{
     margin-top: 40px;
 }
-.footer{
+.herofooter{
     width: 100%;
     position: absolute;
     bottom: 2.5%;
@@ -110,7 +110,7 @@ main{
     padding: 0 3vw;
 }
 
-.footer a{
+.herofooter a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -191,7 +191,7 @@ main{
 }
 .textabout h5{
     text-transform: uppercase;
-    opacity: 0.7;
+    opacity: 0.6;
     margin-bottom:10px;
 }
 .textabout p{
@@ -208,4 +208,44 @@ main{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 100px;
     font-size: 0.9vw;
+}
+
+.subscribe{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 1vw 2.7vw;
+    padding-bottom: 7vw;
+}
+.subscribe h5{
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 3px;
+}
+.subscribe a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.95vw;
+}
+
+.footer{
+    background-color: black;
+    padding: 1.2vw 2.7vw;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95vw;
+}
+.footer .leftsection{
+    display: flex;
+    gap: 30px;
+}
+.footer .rightsection{
+    display: flex;
+    gap: 30px;
 }
