@@ -32,11 +32,10 @@ main{
     left: 0;
     z-index: 9999;
     pointer-events: none;
-    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1); 
-    
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1); 
     height: 10px;
     width: 10px;
-    background-color: #fff;
+    background-color: white !important;
     border-radius: 50%;
 }
 .hero{
